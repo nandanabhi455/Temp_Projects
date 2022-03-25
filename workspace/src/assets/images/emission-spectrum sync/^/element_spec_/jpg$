@@ -1,0 +1,117 @@
+var map = {
+	"./element_spec_1.jpg": "./src/assets/images/emission-spectrum/element_spec_1.jpg",
+	"./element_spec_10.jpg": "./src/assets/images/emission-spectrum/element_spec_10.jpg",
+	"./element_spec_11.jpg": "./src/assets/images/emission-spectrum/element_spec_11.jpg",
+	"./element_spec_12.jpg": "./src/assets/images/emission-spectrum/element_spec_12.jpg",
+	"./element_spec_13.jpg": "./src/assets/images/emission-spectrum/element_spec_13.jpg",
+	"./element_spec_14.jpg": "./src/assets/images/emission-spectrum/element_spec_14.jpg",
+	"./element_spec_15.jpg": "./src/assets/images/emission-spectrum/element_spec_15.jpg",
+	"./element_spec_16.jpg": "./src/assets/images/emission-spectrum/element_spec_16.jpg",
+	"./element_spec_17.jpg": "./src/assets/images/emission-spectrum/element_spec_17.jpg",
+	"./element_spec_18.jpg": "./src/assets/images/emission-spectrum/element_spec_18.jpg",
+	"./element_spec_19.jpg": "./src/assets/images/emission-spectrum/element_spec_19.jpg",
+	"./element_spec_2.jpg": "./src/assets/images/emission-spectrum/element_spec_2.jpg",
+	"./element_spec_20.jpg": "./src/assets/images/emission-spectrum/element_spec_20.jpg",
+	"./element_spec_21.jpg": "./src/assets/images/emission-spectrum/element_spec_21.jpg",
+	"./element_spec_22.jpg": "./src/assets/images/emission-spectrum/element_spec_22.jpg",
+	"./element_spec_23.jpg": "./src/assets/images/emission-spectrum/element_spec_23.jpg",
+	"./element_spec_24.jpg": "./src/assets/images/emission-spectrum/element_spec_24.jpg",
+	"./element_spec_25.jpg": "./src/assets/images/emission-spectrum/element_spec_25.jpg",
+	"./element_spec_26.jpg": "./src/assets/images/emission-spectrum/element_spec_26.jpg",
+	"./element_spec_27.jpg": "./src/assets/images/emission-spectrum/element_spec_27.jpg",
+	"./element_spec_28.jpg": "./src/assets/images/emission-spectrum/element_spec_28.jpg",
+	"./element_spec_29.jpg": "./src/assets/images/emission-spectrum/element_spec_29.jpg",
+	"./element_spec_3.jpg": "./src/assets/images/emission-spectrum/element_spec_3.jpg",
+	"./element_spec_30.jpg": "./src/assets/images/emission-spectrum/element_spec_30.jpg",
+	"./element_spec_31.jpg": "./src/assets/images/emission-spectrum/element_spec_31.jpg",
+	"./element_spec_32.jpg": "./src/assets/images/emission-spectrum/element_spec_32.jpg",
+	"./element_spec_33.jpg": "./src/assets/images/emission-spectrum/element_spec_33.jpg",
+	"./element_spec_34.jpg": "./src/assets/images/emission-spectrum/element_spec_34.jpg",
+	"./element_spec_35.jpg": "./src/assets/images/emission-spectrum/element_spec_35.jpg",
+	"./element_spec_36.jpg": "./src/assets/images/emission-spectrum/element_spec_36.jpg",
+	"./element_spec_37.jpg": "./src/assets/images/emission-spectrum/element_spec_37.jpg",
+	"./element_spec_38.jpg": "./src/assets/images/emission-spectrum/element_spec_38.jpg",
+	"./element_spec_39.jpg": "./src/assets/images/emission-spectrum/element_spec_39.jpg",
+	"./element_spec_4.jpg": "./src/assets/images/emission-spectrum/element_spec_4.jpg",
+	"./element_spec_40.jpg": "./src/assets/images/emission-spectrum/element_spec_40.jpg",
+	"./element_spec_41.jpg": "./src/assets/images/emission-spectrum/element_spec_41.jpg",
+	"./element_spec_42.jpg": "./src/assets/images/emission-spectrum/element_spec_42.jpg",
+	"./element_spec_43.jpg": "./src/assets/images/emission-spectrum/element_spec_43.jpg",
+	"./element_spec_44.jpg": "./src/assets/images/emission-spectrum/element_spec_44.jpg",
+	"./element_spec_45.jpg": "./src/assets/images/emission-spectrum/element_spec_45.jpg",
+	"./element_spec_46.jpg": "./src/assets/images/emission-spectrum/element_spec_46.jpg",
+	"./element_spec_47.jpg": "./src/assets/images/emission-spectrum/element_spec_47.jpg",
+	"./element_spec_48.jpg": "./src/assets/images/emission-spectrum/element_spec_48.jpg",
+	"./element_spec_49.jpg": "./src/assets/images/emission-spectrum/element_spec_49.jpg",
+	"./element_spec_5.jpg": "./src/assets/images/emission-spectrum/element_spec_5.jpg",
+	"./element_spec_50.jpg": "./src/assets/images/emission-spectrum/element_spec_50.jpg",
+	"./element_spec_51.jpg": "./src/assets/images/emission-spectrum/element_spec_51.jpg",
+	"./element_spec_52.jpg": "./src/assets/images/emission-spectrum/element_spec_52.jpg",
+	"./element_spec_53.jpg": "./src/assets/images/emission-spectrum/element_spec_53.jpg",
+	"./element_spec_54.jpg": "./src/assets/images/emission-spectrum/element_spec_54.jpg",
+	"./element_spec_55.jpg": "./src/assets/images/emission-spectrum/element_spec_55.jpg",
+	"./element_spec_56.jpg": "./src/assets/images/emission-spectrum/element_spec_56.jpg",
+	"./element_spec_57.jpg": "./src/assets/images/emission-spectrum/element_spec_57.jpg",
+	"./element_spec_58.jpg": "./src/assets/images/emission-spectrum/element_spec_58.jpg",
+	"./element_spec_59.jpg": "./src/assets/images/emission-spectrum/element_spec_59.jpg",
+	"./element_spec_6.jpg": "./src/assets/images/emission-spectrum/element_spec_6.jpg",
+	"./element_spec_60.jpg": "./src/assets/images/emission-spectrum/element_spec_60.jpg",
+	"./element_spec_61.jpg": "./src/assets/images/emission-spectrum/element_spec_61.jpg",
+	"./element_spec_62.jpg": "./src/assets/images/emission-spectrum/element_spec_62.jpg",
+	"./element_spec_63.jpg": "./src/assets/images/emission-spectrum/element_spec_63.jpg",
+	"./element_spec_64.jpg": "./src/assets/images/emission-spectrum/element_spec_64.jpg",
+	"./element_spec_65.jpg": "./src/assets/images/emission-spectrum/element_spec_65.jpg",
+	"./element_spec_66.jpg": "./src/assets/images/emission-spectrum/element_spec_66.jpg",
+	"./element_spec_67.jpg": "./src/assets/images/emission-spectrum/element_spec_67.jpg",
+	"./element_spec_68.jpg": "./src/assets/images/emission-spectrum/element_spec_68.jpg",
+	"./element_spec_69.jpg": "./src/assets/images/emission-spectrum/element_spec_69.jpg",
+	"./element_spec_7.jpg": "./src/assets/images/emission-spectrum/element_spec_7.jpg",
+	"./element_spec_70.jpg": "./src/assets/images/emission-spectrum/element_spec_70.jpg",
+	"./element_spec_71.jpg": "./src/assets/images/emission-spectrum/element_spec_71.jpg",
+	"./element_spec_72.jpg": "./src/assets/images/emission-spectrum/element_spec_72.jpg",
+	"./element_spec_73.jpg": "./src/assets/images/emission-spectrum/element_spec_73.jpg",
+	"./element_spec_74.jpg": "./src/assets/images/emission-spectrum/element_spec_74.jpg",
+	"./element_spec_75.jpg": "./src/assets/images/emission-spectrum/element_spec_75.jpg",
+	"./element_spec_76.jpg": "./src/assets/images/emission-spectrum/element_spec_76.jpg",
+	"./element_spec_77.jpg": "./src/assets/images/emission-spectrum/element_spec_77.jpg",
+	"./element_spec_78.jpg": "./src/assets/images/emission-spectrum/element_spec_78.jpg",
+	"./element_spec_79.jpg": "./src/assets/images/emission-spectrum/element_spec_79.jpg",
+	"./element_spec_8.jpg": "./src/assets/images/emission-spectrum/element_spec_8.jpg",
+	"./element_spec_80.jpg": "./src/assets/images/emission-spectrum/element_spec_80.jpg",
+	"./element_spec_81.jpg": "./src/assets/images/emission-spectrum/element_spec_81.jpg",
+	"./element_spec_82.jpg": "./src/assets/images/emission-spectrum/element_spec_82.jpg",
+	"./element_spec_83.jpg": "./src/assets/images/emission-spectrum/element_spec_83.jpg",
+	"./element_spec_84.jpg": "./src/assets/images/emission-spectrum/element_spec_84.jpg",
+	"./element_spec_86.jpg": "./src/assets/images/emission-spectrum/element_spec_86.jpg",
+	"./element_spec_88.jpg": "./src/assets/images/emission-spectrum/element_spec_88.jpg",
+	"./element_spec_89.jpg": "./src/assets/images/emission-spectrum/element_spec_89.jpg",
+	"./element_spec_9.jpg": "./src/assets/images/emission-spectrum/element_spec_9.jpg",
+	"./element_spec_90.jpg": "./src/assets/images/emission-spectrum/element_spec_90.jpg",
+	"./element_spec_91.jpg": "./src/assets/images/emission-spectrum/element_spec_91.jpg",
+	"./element_spec_92.jpg": "./src/assets/images/emission-spectrum/element_spec_92.jpg",
+	"./element_spec_94.jpg": "./src/assets/images/emission-spectrum/element_spec_94.jpg",
+	"./element_spec_95.jpg": "./src/assets/images/emission-spectrum/element_spec_95.jpg",
+	"./element_spec_96.jpg": "./src/assets/images/emission-spectrum/element_spec_96.jpg",
+	"./element_spec_97.jpg": "./src/assets/images/emission-spectrum/element_spec_97.jpg",
+	"./element_spec_98.jpg": "./src/assets/images/emission-spectrum/element_spec_98.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images/emission-spectrum sync recursive ^\\.\\/element_spec_.*\\.jpg$";

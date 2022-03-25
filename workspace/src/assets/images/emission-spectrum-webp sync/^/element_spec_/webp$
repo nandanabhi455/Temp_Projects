@@ -1,0 +1,117 @@
+var map = {
+	"./element_spec_1.webp": "./src/assets/images/emission-spectrum-webp/element_spec_1.webp",
+	"./element_spec_10.webp": "./src/assets/images/emission-spectrum-webp/element_spec_10.webp",
+	"./element_spec_11.webp": "./src/assets/images/emission-spectrum-webp/element_spec_11.webp",
+	"./element_spec_12.webp": "./src/assets/images/emission-spectrum-webp/element_spec_12.webp",
+	"./element_spec_13.webp": "./src/assets/images/emission-spectrum-webp/element_spec_13.webp",
+	"./element_spec_14.webp": "./src/assets/images/emission-spectrum-webp/element_spec_14.webp",
+	"./element_spec_15.webp": "./src/assets/images/emission-spectrum-webp/element_spec_15.webp",
+	"./element_spec_16.webp": "./src/assets/images/emission-spectrum-webp/element_spec_16.webp",
+	"./element_spec_17.webp": "./src/assets/images/emission-spectrum-webp/element_spec_17.webp",
+	"./element_spec_18.webp": "./src/assets/images/emission-spectrum-webp/element_spec_18.webp",
+	"./element_spec_19.webp": "./src/assets/images/emission-spectrum-webp/element_spec_19.webp",
+	"./element_spec_2.webp": "./src/assets/images/emission-spectrum-webp/element_spec_2.webp",
+	"./element_spec_20.webp": "./src/assets/images/emission-spectrum-webp/element_spec_20.webp",
+	"./element_spec_21.webp": "./src/assets/images/emission-spectrum-webp/element_spec_21.webp",
+	"./element_spec_22.webp": "./src/assets/images/emission-spectrum-webp/element_spec_22.webp",
+	"./element_spec_23.webp": "./src/assets/images/emission-spectrum-webp/element_spec_23.webp",
+	"./element_spec_24.webp": "./src/assets/images/emission-spectrum-webp/element_spec_24.webp",
+	"./element_spec_25.webp": "./src/assets/images/emission-spectrum-webp/element_spec_25.webp",
+	"./element_spec_26.webp": "./src/assets/images/emission-spectrum-webp/element_spec_26.webp",
+	"./element_spec_27.webp": "./src/assets/images/emission-spectrum-webp/element_spec_27.webp",
+	"./element_spec_28.webp": "./src/assets/images/emission-spectrum-webp/element_spec_28.webp",
+	"./element_spec_29.webp": "./src/assets/images/emission-spectrum-webp/element_spec_29.webp",
+	"./element_spec_3.webp": "./src/assets/images/emission-spectrum-webp/element_spec_3.webp",
+	"./element_spec_30.webp": "./src/assets/images/emission-spectrum-webp/element_spec_30.webp",
+	"./element_spec_31.webp": "./src/assets/images/emission-spectrum-webp/element_spec_31.webp",
+	"./element_spec_32.webp": "./src/assets/images/emission-spectrum-webp/element_spec_32.webp",
+	"./element_spec_33.webp": "./src/assets/images/emission-spectrum-webp/element_spec_33.webp",
+	"./element_spec_34.webp": "./src/assets/images/emission-spectrum-webp/element_spec_34.webp",
+	"./element_spec_35.webp": "./src/assets/images/emission-spectrum-webp/element_spec_35.webp",
+	"./element_spec_36.webp": "./src/assets/images/emission-spectrum-webp/element_spec_36.webp",
+	"./element_spec_37.webp": "./src/assets/images/emission-spectrum-webp/element_spec_37.webp",
+	"./element_spec_38.webp": "./src/assets/images/emission-spectrum-webp/element_spec_38.webp",
+	"./element_spec_39.webp": "./src/assets/images/emission-spectrum-webp/element_spec_39.webp",
+	"./element_spec_4.webp": "./src/assets/images/emission-spectrum-webp/element_spec_4.webp",
+	"./element_spec_40.webp": "./src/assets/images/emission-spectrum-webp/element_spec_40.webp",
+	"./element_spec_41.webp": "./src/assets/images/emission-spectrum-webp/element_spec_41.webp",
+	"./element_spec_42.webp": "./src/assets/images/emission-spectrum-webp/element_spec_42.webp",
+	"./element_spec_43.webp": "./src/assets/images/emission-spectrum-webp/element_spec_43.webp",
+	"./element_spec_44.webp": "./src/assets/images/emission-spectrum-webp/element_spec_44.webp",
+	"./element_spec_45.webp": "./src/assets/images/emission-spectrum-webp/element_spec_45.webp",
+	"./element_spec_46.webp": "./src/assets/images/emission-spectrum-webp/element_spec_46.webp",
+	"./element_spec_47.webp": "./src/assets/images/emission-spectrum-webp/element_spec_47.webp",
+	"./element_spec_48.webp": "./src/assets/images/emission-spectrum-webp/element_spec_48.webp",
+	"./element_spec_49.webp": "./src/assets/images/emission-spectrum-webp/element_spec_49.webp",
+	"./element_spec_5.webp": "./src/assets/images/emission-spectrum-webp/element_spec_5.webp",
+	"./element_spec_50.webp": "./src/assets/images/emission-spectrum-webp/element_spec_50.webp",
+	"./element_spec_51.webp": "./src/assets/images/emission-spectrum-webp/element_spec_51.webp",
+	"./element_spec_52.webp": "./src/assets/images/emission-spectrum-webp/element_spec_52.webp",
+	"./element_spec_53.webp": "./src/assets/images/emission-spectrum-webp/element_spec_53.webp",
+	"./element_spec_54.webp": "./src/assets/images/emission-spectrum-webp/element_spec_54.webp",
+	"./element_spec_55.webp": "./src/assets/images/emission-spectrum-webp/element_spec_55.webp",
+	"./element_spec_56.webp": "./src/assets/images/emission-spectrum-webp/element_spec_56.webp",
+	"./element_spec_57.webp": "./src/assets/images/emission-spectrum-webp/element_spec_57.webp",
+	"./element_spec_58.webp": "./src/assets/images/emission-spectrum-webp/element_spec_58.webp",
+	"./element_spec_59.webp": "./src/assets/images/emission-spectrum-webp/element_spec_59.webp",
+	"./element_spec_6.webp": "./src/assets/images/emission-spectrum-webp/element_spec_6.webp",
+	"./element_spec_60.webp": "./src/assets/images/emission-spectrum-webp/element_spec_60.webp",
+	"./element_spec_61.webp": "./src/assets/images/emission-spectrum-webp/element_spec_61.webp",
+	"./element_spec_62.webp": "./src/assets/images/emission-spectrum-webp/element_spec_62.webp",
+	"./element_spec_63.webp": "./src/assets/images/emission-spectrum-webp/element_spec_63.webp",
+	"./element_spec_64.webp": "./src/assets/images/emission-spectrum-webp/element_spec_64.webp",
+	"./element_spec_65.webp": "./src/assets/images/emission-spectrum-webp/element_spec_65.webp",
+	"./element_spec_66.webp": "./src/assets/images/emission-spectrum-webp/element_spec_66.webp",
+	"./element_spec_67.webp": "./src/assets/images/emission-spectrum-webp/element_spec_67.webp",
+	"./element_spec_68.webp": "./src/assets/images/emission-spectrum-webp/element_spec_68.webp",
+	"./element_spec_69.webp": "./src/assets/images/emission-spectrum-webp/element_spec_69.webp",
+	"./element_spec_7.webp": "./src/assets/images/emission-spectrum-webp/element_spec_7.webp",
+	"./element_spec_70.webp": "./src/assets/images/emission-spectrum-webp/element_spec_70.webp",
+	"./element_spec_71.webp": "./src/assets/images/emission-spectrum-webp/element_spec_71.webp",
+	"./element_spec_72.webp": "./src/assets/images/emission-spectrum-webp/element_spec_72.webp",
+	"./element_spec_73.webp": "./src/assets/images/emission-spectrum-webp/element_spec_73.webp",
+	"./element_spec_74.webp": "./src/assets/images/emission-spectrum-webp/element_spec_74.webp",
+	"./element_spec_75.webp": "./src/assets/images/emission-spectrum-webp/element_spec_75.webp",
+	"./element_spec_76.webp": "./src/assets/images/emission-spectrum-webp/element_spec_76.webp",
+	"./element_spec_77.webp": "./src/assets/images/emission-spectrum-webp/element_spec_77.webp",
+	"./element_spec_78.webp": "./src/assets/images/emission-spectrum-webp/element_spec_78.webp",
+	"./element_spec_79.webp": "./src/assets/images/emission-spectrum-webp/element_spec_79.webp",
+	"./element_spec_8.webp": "./src/assets/images/emission-spectrum-webp/element_spec_8.webp",
+	"./element_spec_80.webp": "./src/assets/images/emission-spectrum-webp/element_spec_80.webp",
+	"./element_spec_81.webp": "./src/assets/images/emission-spectrum-webp/element_spec_81.webp",
+	"./element_spec_82.webp": "./src/assets/images/emission-spectrum-webp/element_spec_82.webp",
+	"./element_spec_83.webp": "./src/assets/images/emission-spectrum-webp/element_spec_83.webp",
+	"./element_spec_84.webp": "./src/assets/images/emission-spectrum-webp/element_spec_84.webp",
+	"./element_spec_86.webp": "./src/assets/images/emission-spectrum-webp/element_spec_86.webp",
+	"./element_spec_88.webp": "./src/assets/images/emission-spectrum-webp/element_spec_88.webp",
+	"./element_spec_89.webp": "./src/assets/images/emission-spectrum-webp/element_spec_89.webp",
+	"./element_spec_9.webp": "./src/assets/images/emission-spectrum-webp/element_spec_9.webp",
+	"./element_spec_90.webp": "./src/assets/images/emission-spectrum-webp/element_spec_90.webp",
+	"./element_spec_91.webp": "./src/assets/images/emission-spectrum-webp/element_spec_91.webp",
+	"./element_spec_92.webp": "./src/assets/images/emission-spectrum-webp/element_spec_92.webp",
+	"./element_spec_94.webp": "./src/assets/images/emission-spectrum-webp/element_spec_94.webp",
+	"./element_spec_95.webp": "./src/assets/images/emission-spectrum-webp/element_spec_95.webp",
+	"./element_spec_96.webp": "./src/assets/images/emission-spectrum-webp/element_spec_96.webp",
+	"./element_spec_97.webp": "./src/assets/images/emission-spectrum-webp/element_spec_97.webp",
+	"./element_spec_98.webp": "./src/assets/images/emission-spectrum-webp/element_spec_98.webp"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images/emission-spectrum-webp sync recursive ^\\.\\/element_spec_.*\\.webp$";

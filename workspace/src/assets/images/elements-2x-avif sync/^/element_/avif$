@@ -1,0 +1,119 @@
+var map = {
+	"./element_1.avif": "./src/assets/images/elements-2x-avif/element_1.avif",
+	"./element_10.avif": "./src/assets/images/elements-2x-avif/element_10.avif",
+	"./element_102.avif": "./src/assets/images/elements-2x-avif/element_102.avif",
+	"./element_103.avif": "./src/assets/images/elements-2x-avif/element_103.avif",
+	"./element_104.avif": "./src/assets/images/elements-2x-avif/element_104.avif",
+	"./element_11.avif": "./src/assets/images/elements-2x-avif/element_11.avif",
+	"./element_12.avif": "./src/assets/images/elements-2x-avif/element_12.avif",
+	"./element_13.avif": "./src/assets/images/elements-2x-avif/element_13.avif",
+	"./element_14.avif": "./src/assets/images/elements-2x-avif/element_14.avif",
+	"./element_15.avif": "./src/assets/images/elements-2x-avif/element_15.avif",
+	"./element_16.avif": "./src/assets/images/elements-2x-avif/element_16.avif",
+	"./element_17.avif": "./src/assets/images/elements-2x-avif/element_17.avif",
+	"./element_18.avif": "./src/assets/images/elements-2x-avif/element_18.avif",
+	"./element_19.avif": "./src/assets/images/elements-2x-avif/element_19.avif",
+	"./element_2.avif": "./src/assets/images/elements-2x-avif/element_2.avif",
+	"./element_20.avif": "./src/assets/images/elements-2x-avif/element_20.avif",
+	"./element_21.avif": "./src/assets/images/elements-2x-avif/element_21.avif",
+	"./element_22.avif": "./src/assets/images/elements-2x-avif/element_22.avif",
+	"./element_23.avif": "./src/assets/images/elements-2x-avif/element_23.avif",
+	"./element_24.avif": "./src/assets/images/elements-2x-avif/element_24.avif",
+	"./element_25.avif": "./src/assets/images/elements-2x-avif/element_25.avif",
+	"./element_26.avif": "./src/assets/images/elements-2x-avif/element_26.avif",
+	"./element_27.avif": "./src/assets/images/elements-2x-avif/element_27.avif",
+	"./element_28.avif": "./src/assets/images/elements-2x-avif/element_28.avif",
+	"./element_29.avif": "./src/assets/images/elements-2x-avif/element_29.avif",
+	"./element_3.avif": "./src/assets/images/elements-2x-avif/element_3.avif",
+	"./element_30.avif": "./src/assets/images/elements-2x-avif/element_30.avif",
+	"./element_31.avif": "./src/assets/images/elements-2x-avif/element_31.avif",
+	"./element_32.avif": "./src/assets/images/elements-2x-avif/element_32.avif",
+	"./element_33.avif": "./src/assets/images/elements-2x-avif/element_33.avif",
+	"./element_34.avif": "./src/assets/images/elements-2x-avif/element_34.avif",
+	"./element_35.avif": "./src/assets/images/elements-2x-avif/element_35.avif",
+	"./element_36.avif": "./src/assets/images/elements-2x-avif/element_36.avif",
+	"./element_38.avif": "./src/assets/images/elements-2x-avif/element_38.avif",
+	"./element_39.avif": "./src/assets/images/elements-2x-avif/element_39.avif",
+	"./element_4.avif": "./src/assets/images/elements-2x-avif/element_4.avif",
+	"./element_40.avif": "./src/assets/images/elements-2x-avif/element_40.avif",
+	"./element_41.avif": "./src/assets/images/elements-2x-avif/element_41.avif",
+	"./element_42.avif": "./src/assets/images/elements-2x-avif/element_42.avif",
+	"./element_44.avif": "./src/assets/images/elements-2x-avif/element_44.avif",
+	"./element_45.avif": "./src/assets/images/elements-2x-avif/element_45.avif",
+	"./element_46.avif": "./src/assets/images/elements-2x-avif/element_46.avif",
+	"./element_47.avif": "./src/assets/images/elements-2x-avif/element_47.avif",
+	"./element_48.avif": "./src/assets/images/elements-2x-avif/element_48.avif",
+	"./element_49.avif": "./src/assets/images/elements-2x-avif/element_49.avif",
+	"./element_5.avif": "./src/assets/images/elements-2x-avif/element_5.avif",
+	"./element_50.avif": "./src/assets/images/elements-2x-avif/element_50.avif",
+	"./element_51.avif": "./src/assets/images/elements-2x-avif/element_51.avif",
+	"./element_52.avif": "./src/assets/images/elements-2x-avif/element_52.avif",
+	"./element_53.avif": "./src/assets/images/elements-2x-avif/element_53.avif",
+	"./element_54.avif": "./src/assets/images/elements-2x-avif/element_54.avif",
+	"./element_55.avif": "./src/assets/images/elements-2x-avif/element_55.avif",
+	"./element_56.avif": "./src/assets/images/elements-2x-avif/element_56.avif",
+	"./element_57.avif": "./src/assets/images/elements-2x-avif/element_57.avif",
+	"./element_58.avif": "./src/assets/images/elements-2x-avif/element_58.avif",
+	"./element_59.avif": "./src/assets/images/elements-2x-avif/element_59.avif",
+	"./element_6.avif": "./src/assets/images/elements-2x-avif/element_6.avif",
+	"./element_60.avif": "./src/assets/images/elements-2x-avif/element_60.avif",
+	"./element_61.avif": "./src/assets/images/elements-2x-avif/element_61.avif",
+	"./element_62.avif": "./src/assets/images/elements-2x-avif/element_62.avif",
+	"./element_63.avif": "./src/assets/images/elements-2x-avif/element_63.avif",
+	"./element_64.avif": "./src/assets/images/elements-2x-avif/element_64.avif",
+	"./element_65.avif": "./src/assets/images/elements-2x-avif/element_65.avif",
+	"./element_66.avif": "./src/assets/images/elements-2x-avif/element_66.avif",
+	"./element_67.avif": "./src/assets/images/elements-2x-avif/element_67.avif",
+	"./element_68.avif": "./src/assets/images/elements-2x-avif/element_68.avif",
+	"./element_69.avif": "./src/assets/images/elements-2x-avif/element_69.avif",
+	"./element_7.avif": "./src/assets/images/elements-2x-avif/element_7.avif",
+	"./element_70.avif": "./src/assets/images/elements-2x-avif/element_70.avif",
+	"./element_71.avif": "./src/assets/images/elements-2x-avif/element_71.avif",
+	"./element_72.avif": "./src/assets/images/elements-2x-avif/element_72.avif",
+	"./element_73.avif": "./src/assets/images/elements-2x-avif/element_73.avif",
+	"./element_74.avif": "./src/assets/images/elements-2x-avif/element_74.avif",
+	"./element_76.avif": "./src/assets/images/elements-2x-avif/element_76.avif",
+	"./element_77.avif": "./src/assets/images/elements-2x-avif/element_77.avif",
+	"./element_78.avif": "./src/assets/images/elements-2x-avif/element_78.avif",
+	"./element_79.avif": "./src/assets/images/elements-2x-avif/element_79.avif",
+	"./element_8.avif": "./src/assets/images/elements-2x-avif/element_8.avif",
+	"./element_80.avif": "./src/assets/images/elements-2x-avif/element_80.avif",
+	"./element_81.avif": "./src/assets/images/elements-2x-avif/element_81.avif",
+	"./element_82.avif": "./src/assets/images/elements-2x-avif/element_82.avif",
+	"./element_83.avif": "./src/assets/images/elements-2x-avif/element_83.avif",
+	"./element_84.avif": "./src/assets/images/elements-2x-avif/element_84.avif",
+	"./element_85.avif": "./src/assets/images/elements-2x-avif/element_85.avif",
+	"./element_86.avif": "./src/assets/images/elements-2x-avif/element_86.avif",
+	"./element_87.avif": "./src/assets/images/elements-2x-avif/element_87.avif",
+	"./element_88.avif": "./src/assets/images/elements-2x-avif/element_88.avif",
+	"./element_89.avif": "./src/assets/images/elements-2x-avif/element_89.avif",
+	"./element_9.avif": "./src/assets/images/elements-2x-avif/element_9.avif",
+	"./element_90.avif": "./src/assets/images/elements-2x-avif/element_90.avif",
+	"./element_91.avif": "./src/assets/images/elements-2x-avif/element_91.avif",
+	"./element_92.avif": "./src/assets/images/elements-2x-avif/element_92.avif",
+	"./element_94.avif": "./src/assets/images/elements-2x-avif/element_94.avif",
+	"./element_95.avif": "./src/assets/images/elements-2x-avif/element_95.avif",
+	"./element_96.avif": "./src/assets/images/elements-2x-avif/element_96.avif",
+	"./element_98.avif": "./src/assets/images/elements-2x-avif/element_98.avif",
+	"./element_99.avif": "./src/assets/images/elements-2x-avif/element_99.avif"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images/elements-2x-avif sync recursive ^\\.\\/element_.*\\.avif$";

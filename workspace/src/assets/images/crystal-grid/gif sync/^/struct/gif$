@@ -1,0 +1,32 @@
+var map = {
+	"./struct1.gif": "./src/assets/images/crystal-grid/gif/struct1.gif",
+	"./struct10.gif": "./src/assets/images/crystal-grid/gif/struct10.gif",
+	"./struct12.gif": "./src/assets/images/crystal-grid/gif/struct12.gif",
+	"./struct2.gif": "./src/assets/images/crystal-grid/gif/struct2.gif",
+	"./struct3.gif": "./src/assets/images/crystal-grid/gif/struct3.gif",
+	"./struct4.gif": "./src/assets/images/crystal-grid/gif/struct4.gif",
+	"./struct5.gif": "./src/assets/images/crystal-grid/gif/struct5.gif",
+	"./struct7.gif": "./src/assets/images/crystal-grid/gif/struct7.gif",
+	"./struct8.gif": "./src/assets/images/crystal-grid/gif/struct8.gif",
+	"./struct9.gif": "./src/assets/images/crystal-grid/gif/struct9.gif"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images/crystal-grid/gif sync recursive ^\\.\\/struct.*\\.gif$";

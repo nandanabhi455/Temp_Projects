@@ -1,0 +1,119 @@
+var map = {
+	"./element_1.jpg": "./src/assets/images/elements-2x-jpg/element_1.jpg",
+	"./element_10.jpg": "./src/assets/images/elements-2x-jpg/element_10.jpg",
+	"./element_102.jpg": "./src/assets/images/elements-2x-jpg/element_102.jpg",
+	"./element_103.jpg": "./src/assets/images/elements-2x-jpg/element_103.jpg",
+	"./element_104.jpg": "./src/assets/images/elements-2x-jpg/element_104.jpg",
+	"./element_11.jpg": "./src/assets/images/elements-2x-jpg/element_11.jpg",
+	"./element_12.jpg": "./src/assets/images/elements-2x-jpg/element_12.jpg",
+	"./element_13.jpg": "./src/assets/images/elements-2x-jpg/element_13.jpg",
+	"./element_14.jpg": "./src/assets/images/elements-2x-jpg/element_14.jpg",
+	"./element_15.jpg": "./src/assets/images/elements-2x-jpg/element_15.jpg",
+	"./element_16.jpg": "./src/assets/images/elements-2x-jpg/element_16.jpg",
+	"./element_17.jpg": "./src/assets/images/elements-2x-jpg/element_17.jpg",
+	"./element_18.jpg": "./src/assets/images/elements-2x-jpg/element_18.jpg",
+	"./element_19.jpg": "./src/assets/images/elements-2x-jpg/element_19.jpg",
+	"./element_2.jpg": "./src/assets/images/elements-2x-jpg/element_2.jpg",
+	"./element_20.jpg": "./src/assets/images/elements-2x-jpg/element_20.jpg",
+	"./element_21.jpg": "./src/assets/images/elements-2x-jpg/element_21.jpg",
+	"./element_22.jpg": "./src/assets/images/elements-2x-jpg/element_22.jpg",
+	"./element_23.jpg": "./src/assets/images/elements-2x-jpg/element_23.jpg",
+	"./element_24.jpg": "./src/assets/images/elements-2x-jpg/element_24.jpg",
+	"./element_25.jpg": "./src/assets/images/elements-2x-jpg/element_25.jpg",
+	"./element_26.jpg": "./src/assets/images/elements-2x-jpg/element_26.jpg",
+	"./element_27.jpg": "./src/assets/images/elements-2x-jpg/element_27.jpg",
+	"./element_28.jpg": "./src/assets/images/elements-2x-jpg/element_28.jpg",
+	"./element_29.jpg": "./src/assets/images/elements-2x-jpg/element_29.jpg",
+	"./element_3.jpg": "./src/assets/images/elements-2x-jpg/element_3.jpg",
+	"./element_30.jpg": "./src/assets/images/elements-2x-jpg/element_30.jpg",
+	"./element_31.jpg": "./src/assets/images/elements-2x-jpg/element_31.jpg",
+	"./element_32.jpg": "./src/assets/images/elements-2x-jpg/element_32.jpg",
+	"./element_33.jpg": "./src/assets/images/elements-2x-jpg/element_33.jpg",
+	"./element_34.jpg": "./src/assets/images/elements-2x-jpg/element_34.jpg",
+	"./element_35.jpg": "./src/assets/images/elements-2x-jpg/element_35.jpg",
+	"./element_36.jpg": "./src/assets/images/elements-2x-jpg/element_36.jpg",
+	"./element_38.jpg": "./src/assets/images/elements-2x-jpg/element_38.jpg",
+	"./element_39.jpg": "./src/assets/images/elements-2x-jpg/element_39.jpg",
+	"./element_4.jpg": "./src/assets/images/elements-2x-jpg/element_4.jpg",
+	"./element_40.jpg": "./src/assets/images/elements-2x-jpg/element_40.jpg",
+	"./element_41.jpg": "./src/assets/images/elements-2x-jpg/element_41.jpg",
+	"./element_42.jpg": "./src/assets/images/elements-2x-jpg/element_42.jpg",
+	"./element_44.jpg": "./src/assets/images/elements-2x-jpg/element_44.jpg",
+	"./element_45.jpg": "./src/assets/images/elements-2x-jpg/element_45.jpg",
+	"./element_46.jpg": "./src/assets/images/elements-2x-jpg/element_46.jpg",
+	"./element_47.jpg": "./src/assets/images/elements-2x-jpg/element_47.jpg",
+	"./element_48.jpg": "./src/assets/images/elements-2x-jpg/element_48.jpg",
+	"./element_49.jpg": "./src/assets/images/elements-2x-jpg/element_49.jpg",
+	"./element_5.jpg": "./src/assets/images/elements-2x-jpg/element_5.jpg",
+	"./element_50.jpg": "./src/assets/images/elements-2x-jpg/element_50.jpg",
+	"./element_51.jpg": "./src/assets/images/elements-2x-jpg/element_51.jpg",
+	"./element_52.jpg": "./src/assets/images/elements-2x-jpg/element_52.jpg",
+	"./element_53.jpg": "./src/assets/images/elements-2x-jpg/element_53.jpg",
+	"./element_54.jpg": "./src/assets/images/elements-2x-jpg/element_54.jpg",
+	"./element_55.jpg": "./src/assets/images/elements-2x-jpg/element_55.jpg",
+	"./element_56.jpg": "./src/assets/images/elements-2x-jpg/element_56.jpg",
+	"./element_57.jpg": "./src/assets/images/elements-2x-jpg/element_57.jpg",
+	"./element_58.jpg": "./src/assets/images/elements-2x-jpg/element_58.jpg",
+	"./element_59.jpg": "./src/assets/images/elements-2x-jpg/element_59.jpg",
+	"./element_6.jpg": "./src/assets/images/elements-2x-jpg/element_6.jpg",
+	"./element_60.jpg": "./src/assets/images/elements-2x-jpg/element_60.jpg",
+	"./element_61.jpg": "./src/assets/images/elements-2x-jpg/element_61.jpg",
+	"./element_62.jpg": "./src/assets/images/elements-2x-jpg/element_62.jpg",
+	"./element_63.jpg": "./src/assets/images/elements-2x-jpg/element_63.jpg",
+	"./element_64.jpg": "./src/assets/images/elements-2x-jpg/element_64.jpg",
+	"./element_65.jpg": "./src/assets/images/elements-2x-jpg/element_65.jpg",
+	"./element_66.jpg": "./src/assets/images/elements-2x-jpg/element_66.jpg",
+	"./element_67.jpg": "./src/assets/images/elements-2x-jpg/element_67.jpg",
+	"./element_68.jpg": "./src/assets/images/elements-2x-jpg/element_68.jpg",
+	"./element_69.jpg": "./src/assets/images/elements-2x-jpg/element_69.jpg",
+	"./element_7.jpg": "./src/assets/images/elements-2x-jpg/element_7.jpg",
+	"./element_70.jpg": "./src/assets/images/elements-2x-jpg/element_70.jpg",
+	"./element_71.jpg": "./src/assets/images/elements-2x-jpg/element_71.jpg",
+	"./element_72.jpg": "./src/assets/images/elements-2x-jpg/element_72.jpg",
+	"./element_73.jpg": "./src/assets/images/elements-2x-jpg/element_73.jpg",
+	"./element_74.jpg": "./src/assets/images/elements-2x-jpg/element_74.jpg",
+	"./element_76.jpg": "./src/assets/images/elements-2x-jpg/element_76.jpg",
+	"./element_77.jpg": "./src/assets/images/elements-2x-jpg/element_77.jpg",
+	"./element_78.jpg": "./src/assets/images/elements-2x-jpg/element_78.jpg",
+	"./element_79.jpg": "./src/assets/images/elements-2x-jpg/element_79.jpg",
+	"./element_8.jpg": "./src/assets/images/elements-2x-jpg/element_8.jpg",
+	"./element_80.jpg": "./src/assets/images/elements-2x-jpg/element_80.jpg",
+	"./element_81.jpg": "./src/assets/images/elements-2x-jpg/element_81.jpg",
+	"./element_82.jpg": "./src/assets/images/elements-2x-jpg/element_82.jpg",
+	"./element_83.jpg": "./src/assets/images/elements-2x-jpg/element_83.jpg",
+	"./element_84.jpg": "./src/assets/images/elements-2x-jpg/element_84.jpg",
+	"./element_85.jpg": "./src/assets/images/elements-2x-jpg/element_85.jpg",
+	"./element_86.jpg": "./src/assets/images/elements-2x-jpg/element_86.jpg",
+	"./element_87.jpg": "./src/assets/images/elements-2x-jpg/element_87.jpg",
+	"./element_88.jpg": "./src/assets/images/elements-2x-jpg/element_88.jpg",
+	"./element_89.jpg": "./src/assets/images/elements-2x-jpg/element_89.jpg",
+	"./element_9.jpg": "./src/assets/images/elements-2x-jpg/element_9.jpg",
+	"./element_90.jpg": "./src/assets/images/elements-2x-jpg/element_90.jpg",
+	"./element_91.jpg": "./src/assets/images/elements-2x-jpg/element_91.jpg",
+	"./element_92.jpg": "./src/assets/images/elements-2x-jpg/element_92.jpg",
+	"./element_94.jpg": "./src/assets/images/elements-2x-jpg/element_94.jpg",
+	"./element_95.jpg": "./src/assets/images/elements-2x-jpg/element_95.jpg",
+	"./element_96.jpg": "./src/assets/images/elements-2x-jpg/element_96.jpg",
+	"./element_98.jpg": "./src/assets/images/elements-2x-jpg/element_98.jpg",
+	"./element_99.jpg": "./src/assets/images/elements-2x-jpg/element_99.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images/elements-2x-jpg sync recursive ^\\.\\/element_.*\\.jpg$";
